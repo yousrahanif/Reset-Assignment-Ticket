@@ -17,7 +17,7 @@ const ResolvedTicket = ({ complete }) => {
         </div>
       ) : (
         <div>
-          <p className=" font-semibold text-red-500">No Resolved Task Yet</p>
+          <p className=" ">No Resolved Task Yet</p>
         </div>
       )}
 

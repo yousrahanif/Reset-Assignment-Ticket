@@ -14,7 +14,7 @@ const TicketStatus = ({ track, handleTaskStatus }) => {
             ></StatusCard>
           ))
         ) : (
-          <p className=" font-semibold text-red-500">No Tasks Yet</p>
+          <p className="  ">No In Progress Task Yet</p>
         )}
       </div>
     </div>
