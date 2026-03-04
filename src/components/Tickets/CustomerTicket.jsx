@@ -1,5 +1,5 @@
 import SingleTicket from "./SingleTicket";
-const CustomerTicket = ({ ticketPromise, handleTicket, customerTickets }) => {
+const CustomerTicket = ({ handleTicket, customerTickets }) => {
   //   const ticket = use(ticketPromise);
 
   return (

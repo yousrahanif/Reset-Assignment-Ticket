@@ -1,16 +1,27 @@
-# React + Vite
+# What is JSX, and why is it used?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JSX is a syntax in React that looks like HTML but is written inside JavaScript.
 
-Currently, two official plugins are available:
+## What is the difference between State and Props?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Props are used to send data from parent to child.
+Props cannot be changed.
 
-## React Compiler
+State is data inside a component, like a variable.
+State can be changed, and when it changes, the component updates.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## What is the useState hook, and how does it work?
 
-## Expanding the ESLint configuration
+useState lets a component store data.
+It also gives a function to update that data.
+When the data changes, the component shows the new value.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How can you share state between components in React?
+
+We share state by putting it in the parent component.
+Then we pass it to child components using props.
+
+## How is event handling done in React?
+
+Event handling is done using things like onClick.
+We give it a function, and that function runs when the user clicks or does something.
