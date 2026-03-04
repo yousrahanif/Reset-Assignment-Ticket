@@ -1,6 +1,6 @@
 import vector1 from "../../assets/vector1.png";
 
-const Hero = () => {
+const Hero = ({ track, complete }) => {
   return (
     <div className="grid grid-cols-12 justify-between gap-4 p-4 ">
       <div
@@ -11,7 +11,7 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center items-center h-full text-white text-2xl">
           <p> In Progress</p>
-          <p>0</p>
+          <p>{track.length}</p>
         </div>
       </div>
       <div
@@ -22,7 +22,7 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center items-center h-full text-white text-2xl">
           <p> Resolved</p>
-          <p>0</p>
+          <p>{complete.length}</p>
         </div>
       </div>
     </div>

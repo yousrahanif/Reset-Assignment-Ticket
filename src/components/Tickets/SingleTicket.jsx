@@ -3,23 +3,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const SingleTicket = ({ t, handleTicket }) => {
   return (
-    <div onClick={() => handleTicket(t)} className="py-4 ">
+    <div onClick={() => handleTicket(t)} className="py-4 cursor ">
       <div className="card w-96 bg-base-100 card-md h-42.5 shadow-sm">
         <div className="card-body ">
           <div className="flex justify-between">
             <h2 className="text-black text-xl">{t.title}</h2>
-            {/* <button
-              className={
-                
-                
-                
-                
-                
-                `btn btn-xs rounded-3xl ${
-                            t.status==="Open"?"bg-[#B9F8CF]" :t.status==="In Progress"? "bg-[#B9F8CF]" : t.status==="Resolved"? "bg-[#B9F8CF]:"
-              }
-`}
-            > */}
+
             <button
               className={`btn btn-xs rounded-3xl  ${t.status === "Open" ? "bg-[#B9F8CF]" : t.status === "In Progress" ? "bg-[#F8F3B9]" : ""}`}
             >
