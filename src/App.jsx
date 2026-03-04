@@ -1,5 +1,7 @@
 import { Suspense, use, useState } from "react";
+import Swal from "sweetalert2";
 import "./App.css";
+
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
@@ -19,12 +21,22 @@ function App() {
     const newTrack = [...track, ticket];
     setTrack(newTrack);
     setCustomerTickets(customerTickets.filter((t) => t.id !== ticket.id));
+    Swal.fire({
+      title: "Success",
+      text: "Your Ticket is in progress!",
+      icon: "success",
+    });
   };
   const handleTaskStatus = (status) => {
     const newArray = [...complete, status];
     setComplete(newArray);
     console.log("clicked", status);
     setTrack(track.filter((t) => t.id !== status.id));
+    Swal.fire({
+      title: "Success",
+      text: "Your Ticket Resolved!",
+      icon: "success",
+    });
   };
   return (
     <div className="w-11/12 mx-auto">
