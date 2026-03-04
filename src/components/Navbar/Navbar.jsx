@@ -1,5 +1,6 @@
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm flex-nowrap overflow-x-auto">

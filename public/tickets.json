@@ -1,137 +1,137 @@
 [
   {
-    "id": 1,
+    "id": 1001,
     "title": "Login not working",
     "description": "Customer is unable to log into their account using correct credentials.",
     "customer": "Emma Johnson",
     "priority": "High",
     "status": "Open",
-    "createdAt": "2026-03-01T09:15:00Z"
+    "createdAt": "03/01/2026"
   },
   {
-    "id": 2,
+    "id": 1002,
     "title": "Payment failed at checkout",
     "description": "Transaction fails when attempting to pay with a credit card.",
     "customer": "Michael Brown",
     "priority": "High",
     "status": "In Progress",
-    "createdAt": "2026-03-01T10:30:00Z"
+    "createdAt": "03/01/2026"
   },
   {
-    "id": 3,
+    "id": 1003,
     "title": "Password reset email not received",
     "description": "Customer requested password reset but did not receive the email.",
     "customer": "Sophia Martinez",
     "priority": "Medium",
     "status": "Open",
-    "createdAt": "2026-03-01T11:45:00Z"
+    "createdAt": "03/01/2026"
   },
   {
-    "id": 4,
+    "id": 1004,
     "title": "App crashes on launch",
     "description": "Mobile app crashes immediately after opening.",
     "customer": "Daniel Wilson",
     "priority": "High",
     "status": "In Progress",
-    "createdAt": "2026-03-01T12:10:00Z"
+    "createdAt": "03/01/2026"
   },
   {
-    "id": 5,
+    "id": 1005,
     "title": "Unable to update profile",
     "description": "Customer cannot save changes made to their profile information.",
     "customer": "Olivia Davis",
     "priority": "Medium",
-    "status": "Resolved",
-    "createdAt": "2026-03-01T13:05:00Z"
+    "status": "Open",
+    "createdAt": "03/01/2026"
   },
   {
-    "id": 6,
+    "id": 1006,
     "title": "Incorrect billing amount",
     "description": "Customer was charged more than the displayed price.",
     "customer": "William Anderson",
     "priority": "High",
     "status": "Open",
-    "createdAt": "2026-03-01T14:20:00Z"
+    "createdAt": "03/01/2026"
   },
   {
-    "id": 7,
+    "id": 1007,
     "title": "Feature request: Dark mode",
     "description": "Customer suggests adding a dark mode option to the dashboard.",
     "customer": "Ava Thomas",
     "priority": "Low",
     "status": "Open",
-    "createdAt": "2026-03-01T15:00:00Z"
+    "createdAt": "03/01/2026"
   },
   {
-    "id": 8,
+    "id": 1008,
     "title": "Slow loading dashboard",
     "description": "Dashboard takes too long to load after login.",
     "customer": "James Taylor",
     "priority": "Medium",
     "status": "In Progress",
-    "createdAt": "2026-03-01T16:15:00Z"
+    "createdAt": "03/01/2026"
   },
   {
-    "id": 9,
+    "id": 1009,
     "title": "Error 500 on reports page",
     "description": "Server error appears when accessing the reports section.",
     "customer": "Isabella Moore",
     "priority": "High",
     "status": "Open",
-    "createdAt": "2026-03-01T17:40:00Z"
+    "createdAt": "03/01/2026"
   },
   {
-    "id": 10,
+    "id": 1010,
     "title": "Subscription cancellation issue",
     "description": "Customer cannot cancel subscription from account settings.",
     "customer": "Benjamin Clark",
     "priority": "Medium",
-    "status": "Resolved",
-    "createdAt": "2026-03-02T08:30:00Z"
+    "status": "In Progress",
+    "createdAt": "03/02/2026"
   },
   {
-    "id": 11,
+    "id": 1011,
     "title": "Missing order confirmation",
     "description": "Customer did not receive confirmation email after placing an order.",
     "customer": "Mia Rodriguez",
     "priority": "Medium",
     "status": "Open",
-    "createdAt": "2026-03-02T09:00:00Z"
+    "createdAt": "03/02/2026"
   },
   {
-    "id": 12,
+    "id": 1012,
     "title": "Two-factor authentication issue",
     "description": "Verification code is not being accepted during login.",
     "customer": "Lucas Hernandez",
     "priority": "High",
     "status": "In Progress",
-    "createdAt": "2026-03-02T10:25:00Z"
+    "createdAt": "03/02/2026"
   },
   {
-    "id": 13,
+    "id": 1013,
     "title": "Unable to upload documents",
     "description": "File upload fails with unsupported format error even for valid files.",
     "customer": "Charlotte King",
     "priority": "Medium",
     "status": "Open",
-    "createdAt": "2026-03-02T11:10:00Z"
+    "createdAt": "03/02/2026"
   },
   {
-    "id": 14,
+    "id": 1014,
     "title": "Notification settings not saving",
     "description": "Changes to email notification preferences are not being saved.",
     "customer": "Henry Wright",
     "priority": "Low",
-    "status": "Resolved",
-    "createdAt": "2026-03-02T12:45:00Z"
+    "status": "Open",
+    "createdAt": "03/02/2026"
   },
   {
-    "id": 15,
+    "id": 1015,
     "title": "Search function not returning results",
     "description": "Search bar returns empty results even when items exist.",
     "customer": "Amelia Scott",
     "priority": "High",
     "status": "In Progress",
-    "createdAt": "2026-03-02T14:00:00Z"
+    "createdAt": "03/02/2026"
   }
 ]

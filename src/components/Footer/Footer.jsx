@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="text-white">
-      <footer className="footer sm:footer-horizontal bg-black text-white text-base-content p-10">
+      <footer className="footer sm:footer-horizontal bg-black text-white p-10">
         <nav>
           <h4 className="text-xl footer-title">CS - Ticket System</h4>
           <p>
@@ -30,8 +30,8 @@ const Footer = () => {
           <a className="link link-hover">Join Us</a>
         </nav>
       </footer>
-      <footer className="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
-        <div className="flex  justify-center items-center w-full ">
+      <footer className="footer bg-black text-base-content border-base-300 border-t px-10 py-4">
+        <div className="flex  justify-center items-center w-full text-white ">
           <p className=""> © 2025 CS — Ticket System. All rights reserved.</p>
         </div>
       </footer>
