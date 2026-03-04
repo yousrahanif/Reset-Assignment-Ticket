@@ -17,11 +17,11 @@ function App() {
     setTrack(newTrack);
   };
   return (
-    <div>
+    <div className="w-11/12 mx-auto">
       <Navbar></Navbar>
       <Hero></Hero>
-      <div className="grid grid-cols-12 gap-2 p-4">
-        <div className="col-span-8">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-2 p-4">
+        <div className="md:col-span-8">
           <Suspense fallback={<p>Loading</p>}>
             <CustomerTicket
               ticketPromise={ticketPromise}
@@ -30,7 +30,7 @@ function App() {
             ></CustomerTicket>
           </Suspense>
         </div>
-        <div className="col-span-4">
+        <div className="md:col-span-4">
           <div className="flex flex-col gap-8">
             <TicketStatus></TicketStatus>
             <ResolvedTicket></ResolvedTicket>
