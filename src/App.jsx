@@ -17,7 +17,7 @@ function App() {
     setTrack(newTrack);
   };
   return (
-    <div className="w-10/12 mx-auto">
+    <div>
       <Navbar></Navbar>
       <Hero></Hero>
       <div className="grid grid-cols-12 gap-2 p-4">
